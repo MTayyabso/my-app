@@ -71,7 +71,7 @@ const Cards = () => {
           className="flex justify-between sm:w-[600px] sm:h-[310px] w-[345px] h-[330px] border-x-[1px] border-t-[1px] border-b-[5px] border-black rounded-[45px] p-10 overflow-hidden mb-8"
         >
           {/* Left Section */}
-          <div className="sm:space-y-24">
+          <div className="sm:space-y-24 mt-1">
             <div>
               <h3
                 style={{ backgroundColor: card.title_bg }}
