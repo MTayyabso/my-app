@@ -5,7 +5,7 @@ import CaseStudies from './seaction/CaseStudies'
 import WorkingProcess from './component/workingProcess'
 import ContactUs from './seaction/ContactUs'
 import Team from './seaction/Team'
-import Slider from './seaction/Slider'
+// import Slider from './seaction/Slider'
 const page = () => {
   return (
     <main>

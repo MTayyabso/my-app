@@ -58,8 +58,8 @@ const Team = () => {
   
 
       {
-        teamCard.map((items)=>(
-            <div className='w-[387px] h-[310px] max-sm:w-[350px] max-sm:h-[294px] border-x-[1px] border-t-[1px] border-b-[5px] border-black rounded-[45px] p-10 space-y-6'>
+        teamCard.map((items,i)=>(
+            <div key={i} className='w-[387px] h-[310px] max-sm:w-[350px] max-sm:h-[294px] border-x-[1px] border-t-[1px] border-b-[5px] border-black rounded-[45px] p-10 space-y-6'>
             <div className='flex justify-between '>
                 <Image className='rounded-[25px]'
                 width={105}
