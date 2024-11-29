@@ -58,7 +58,7 @@ const WorkingProcess = () => {
   );
 };
 
-const Card = ({ num, title, description }) => {
+const Card = ({ num, title, description }:{num:string,title:string,description:string}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
