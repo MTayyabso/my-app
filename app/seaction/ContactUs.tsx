@@ -26,8 +26,8 @@ export default function ContactForm() {
     <>
       {/* Header Section */}
       <div className="flex lg:px-16 px-4 py-12 max-md:flex-col max-md:items-center sm:gap-10 gap-8 lg:py-14 mt-8">
-        <h2 className="w-[256px] max-sm:w-[140px] h-[51px] max-sm:h-[46px] font-[500] text-[40px] sm:text-[33px] lg:text-[40px] bg-[#B9FF66] flex justify-center items-center">
-          Case Studies
+        <h2 className="w-[256px] max-sm:w-[140px] h-[51px] max-sm:h-[46px] font-[500] text-[25px] sm:text-[33px] lg:text-[40px] bg-[#B9FF66] flex justify-center items-center">
+       Contact Us
         </h2>
         <p className="w-[580px] max-sm:w-[390px] h-[46px] max-sm:h-[72px] font-[400] text-[18px] max-sm:text-[16px] px-4 max-sm:text-center">
           Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies
